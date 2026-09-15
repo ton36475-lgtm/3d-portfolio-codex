@@ -1,12 +1,14 @@
-export default function HUD() {
+import React from 'react'
+
+export default function HUD({ collected, total }) {
   return (
     <div style={{
-      position: 'absolute', bottom: 16, left: 16, right: 16,
-      display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-      pointerEvents: 'none', fontSize: 14, opacity: 0.9
+      position: 'absolute', top: 12, left: 12, zIndex: 10,
+      background: 'rgba(0,0,0,0.45)', padding: '8px 12px', borderRadius: 8,
+      fontSize: 14, color: '#fff'
     }}>
-      <div>WASD / Arrows to drive · Collect crystals</div>
-      <div>3D Portfolio Drive</div>
+      Crystals: {collected} / {total}
+      <div style={{ marginTop: 4, opacity: 0.8 }}>WASD / Arrows drive · Touch joystick on mobile</div>
     </div>
-  );
+  )
 }

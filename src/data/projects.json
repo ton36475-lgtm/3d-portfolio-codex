@@ -1,0 +1,6 @@
+[
+  {"id": "arch-01", "title": "Glass Pavilion", "zone": "architecture", "x": -40, "z": -40, "thumb": "/thumbs/arch.png", "desc": "Minimal glass pavilion with parametric facade.", "model": "/models/arch.glb"},
+  {"id": "char-01", "title": "Robot Scout", "zone": "characters", "x": 40, "z": -40, "thumb": "/thumbs/char.png", "desc": "Low-poly robot scout with rig.", "model": "/models/char.glb"},
+  {"id": "veh-01", "title": "Hover Bike", "zone": "vehicles", "x": 40, "z": 40, "thumb": "/thumbs/veh.png", "desc": "Futuristic hover bike concept.", "model": "/models/veh.glb"},
+  {"id": "prod-01", "title": "Modular Lamp", "zone": "products", "x": -40, "z": 40, "thumb": "/thumbs/prod.png", "desc": "3D printable modular lamp.", "model": "/models/prod.glb"}
+]

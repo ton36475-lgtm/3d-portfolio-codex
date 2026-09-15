@@ -1,5 +1,5 @@
 {
-  "name": "3d-portfolio-codex",
+  "name": "3d-portfolio-drive",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -15,10 +15,10 @@
     "howler": "^2.2.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "three": "^0.168.0"
+    "three": "^0.169.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.3.1",
-    "vite": "^5.4.8"
+    "@vitejs/plugin-react": "^4.3.3",
+    "vite": "^5.4.10"
   }
 }
