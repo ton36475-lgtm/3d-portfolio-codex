@@ -1,12 +1,12 @@
-# 3D Portfolio Drive
+# 3D Portfolio Drive — Realism v2
 
-Drivable 3D portfolio. Drive a car through four zones, collect glowing crystals to open project cards.
+Drivable 3D portfolio. Drive through four zones, collect glowing crystals, open project cards. Procedural terrain, PBR materials, particles, weather, dynamic fog.
 
 ## Stack
-- Vite + React + Three.js (React Three Fiber)
-- Rapier physics
-- Howler audio
-- Systems: AudioManager, InputManager, Performance, DayNight
+- Vite + React 18 + Three.js via @react-three/fiber + @react-three/drei
+- @react-three/rapier (physics)
+- howler (audio, with synth fallback)
+- Systems: AudioManager, InputManager, Performance, DayNight, Terrain, Particles, Weather, Fog
 
 ## Run
 ```
@@ -20,14 +20,14 @@ npm run build
 npm run preview
 ```
 
-## Deploy
-- Netlify: http://3d-portfolio-codex.netlify.app (site created, needs first deploy)
-- Vercel: add GitHub login connection, then auto-deploy from `codex/full-systems`
-
-## Codex
-Open this repo, switch to branch `codex/full-systems`, paste the contents of `CODEX_PROMPT.md` into Codex. It will extend all systems and commit back.
-
 ## Controls
 - Desktop: WASD or Arrow keys
-- Mobile: touch drag (forward/back/steer)
-- Gamepad: left stick + A button
+- Mobile: touch drag
+- Gamepad: left stick + A
+
+## Deploy
+- Branch: `codex/realism-v2`
+- Netlify / Vercel: connect repo, set build `npm run build`, publish `dist`
+
+## Codex
+Paste `MASTER_PROMPT.md` into Codex on this branch to continue.
